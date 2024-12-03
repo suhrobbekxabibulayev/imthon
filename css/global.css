@@ -1,0 +1,247 @@
+@import url(/css/normolize.css);
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&family=Heebo:wght@100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=League+Spartan:wght@100..900&family=Livvic:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Livvic";
+}
+
+a{
+    display: inline-block;
+    text-decoration: none;
+    transition: all 0.2s;
+    
+}
+.head__ul a:hover{
+    color: #F67E7E;
+    
+}
+
+ul{
+    list-style: none;
+}
+
+html{
+    height: 100%;
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+body{
+    font-size: 1.6rem;
+    overflow-x: hidden;
+}
+header a:hover{
+    color: #002529;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 100px;
+    padding-right: 100px;
+    background-color: #014E56;
+    width: 100%;
+    height: 100px;
+    
+
+}
+.head__nav{
+    display: flex;
+    align-items: center;
+    gap: 80px;
+    color: white;
+
+}
+.head__ul {
+    color: white;
+    display: flex;
+    align-items: center;
+    gap:40px;
+}
+.head__ul a{
+    color: white;
+}
+.head__btn{
+    margin-left: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 153px;
+    min-height: 48px;
+    border-radius: 24px;
+    border: white solid 2px;
+    color: white;
+    background-color:#014E56;
+    &:active{
+       
+        background-color:white;
+        color: #014E56;
+        transition: all 0.2s;
+    }
+    &:hover{
+        background-color:white;
+        color: #002529;
+        transition: all 0.2s;
+    }
+    
+}
+.head__btn a{
+    color: white;
+    font-size: 1.8rem;
+    &:active{
+        color: #014E56;
+    }
+}
+/* head  end */
+
+
+/* foooter */
+
+
+.footer-top{
+    margin-top: 0;
+    background-color:#F67E7E;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    color: #012F34;
+}
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 260px;
+}
+
+.last-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 153px;
+    height: 48px;
+    border-radius: 24px;
+    background-color:#F67E7E;
+    border: 2px solid #004047;
+    color: #004047;
+}
+.last-btn:hover{
+    background-color:#012F34;
+    border:none;
+    color: white;   
+}  
+.last-btn:hover a:hover{
+    color: white;
+}
+
+.flex button a{
+    font-weight: 600;
+    color: #012F34;
+} 
+.fff{
+    position: absolute;
+    top: 2072px;
+}
+
+.footer-bottom{
+    background-color: #002529;
+    height: 200px;
+    z-index: 5;
+}
+
+.footer-bottom path:hover{
+    fill: #F67E7E;
+    transition: all 0.2s;
+    
+}
+
+.footer-bottom{
+    padding-top: 50px;
+    height: 200px;
+    display: grid;
+    grid-template-columns: 1fr, 1fr, 1fr;
+    grid-template-rows: repeat(2, 1fr);
+    color: white;
+    place-items: center;
+}
+.head__h13{
+    margin-top: 0px;
+    margin-bottom: 45px;
+}
+
+.firsr{
+    grid-column: 3/4;
+}
+.firsr h5{
+    color: gray;
+    display: flex;
+    align-items: end;
+    justify-content: end;
+    margin-top: 32px;
+}
+.midle{
+    grid-column: 2/3;
+}
+.lastr{
+    grid-column:1/2;    
+
+}
+.crr{
+    display: flex;
+    gap: 40px;
+
+}
+
+.lastr li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.rre{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 40px;
+}
+.rre a{
+    color: white;
+}
+.redy{
+    font-size: 4.8rem;
+}
+.rre a:hover{
+    color:  #F67E7E;
+}
+.rotatr{
+    display: grid;
+    place-content: center;
+    margin-top: -50px;
+}
+.prog{
+    color: gray;
+    line-height: 25px;
+    margin-left: -300px;
+    margin-top: -60px;
+    font-weight: 600;
+}
+.robot{
+    display: flex;
+    align-items: center;
+}
+.root{
+    display: flex;
+    align-items: center;
+
+}
+.svr{
+    display: none;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+} 
+

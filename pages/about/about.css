@@ -1,0 +1,124 @@
+@import url(https://fonts.googleapis.com/css2?family=Livvic:wght@100;200;300;400;500;600;800;900&display=swap);
+
+body {
+  font-family: 'Livvic';
+}
+.sectiondiv{
+    width: 1110px;
+    height: 722px;
+    padding-top: 140px;
+}
+.sectionh1{
+   padding-left:390px;
+   font-size: 48px;
+}
+.sectiondivicon{
+  width: 350px;
+  height: 253px;
+  gap: 32px;
+  background-color: #012F34;
+}
+.hroe{
+  display: flex;
+  gap: 32px;
+
+   }
+   .hero{
+    display: flex;
+    gap: 32px;
+
+   }
+
+.sectinodiv2{
+  
+display: flex;
+gap: 76px;
+flex-direction: column;
+}
+.sectiondiv2__div{
+  width: 302px;
+  height: 165px;
+  margin-left: 24px;
+  margin-top: 32px;
+}
+.sectiondiv2__img{
+  padding-left: 103px;
+}
+.sectinodiv2__name{
+  font-size: 18px;
+  font-weight: 700;
+  text-align: center;
+  color: #79C8C7;
+}
+.sectiondiv2__p{
+  font-family: Livvic;
+  font-size: 15px;
+  font-style: italic;
+  font-weight: 500;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+.sectiondiv__plus{
+  width: 56px;
+  height: 56px;
+  background: #F67E7E;
+  border-radius: 90px;
+  margin-left: 127px;
+  margin-top: 28px;
+  cursor: pointer;
+}
+
+.sectiondiv__plus:hover{
+  background-color: #79C8C7;
+  transition: 0.5s;
+}
+.plus__icon{
+  padding-left: 20px;
+  padding-top: 20px;
+}
+.sectiondiv3{
+  margin-top: 76px;
+}
+.sectinodiv4{
+  height: 437px;
+  background-color: #012F34;
+  background-image: url(/about/pages/Group\ 8\ \(1\).svg);
+  background-repeat: no-repeat;
+}
+.sectinodiv4h1{
+  font-weight: 700;
+  font-size: 48px;
+  color: white;
+  padding-left: 560px;
+  padding-top: 140px;
+}
+.sectiondiv4__div2{
+  display: flex;
+  margin-top: 70px;
+  margin-left: 165px;
+  gap: 79px;
+}
+.sectiondiv2__h1{
+  color: #79C8C7;
+  font-weight: 700;
+  font-size: 18px;
+  padding-left: 100px;
+}
+.section2__p{
+  font-family: Livvic;
+font-size: 15px;
+font-weight: 600;
+line-height: 25px;
+text-align: center;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+}
+.section2__div{
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-top: 24px;
+  margin-left: 130px;
+}
