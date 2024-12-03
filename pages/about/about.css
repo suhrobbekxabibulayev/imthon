@@ -123,8 +123,10 @@ text-decoration-skip-ink: none;
   margin-left: 130px;
 }
 
-@media(width:390px; height:844px; ){
+@media(width:390px;){
   .head__h1{
-    padding-right: 24px;
+    width: 100%;
+    margin-right: 24px;
+    font-weight: 200;
   }
 }
