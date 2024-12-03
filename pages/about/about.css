@@ -124,5 +124,7 @@ text-decoration-skip-ink: none;
 }
 
 @media(width:390px; height:844px; ){
-  
+  .head__h1{
+    padding-left: 24px;
+  }
 }
